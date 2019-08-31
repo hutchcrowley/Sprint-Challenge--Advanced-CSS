@@ -38,7 +38,7 @@ An adaptive web site sets media query break-points at certain hard-coded pixel w
 
 2. Describe what it means to be mobile first vs desktop first.
 
-Mobile first design is the ph
+Mobile first design is the workflow of using min-width media queries to add break-points to a website in order for the layout to change based on the size of the screen that is viewing it. In the case of mobile-first, the developers start from mobile dimensions, which are around 500 x 800, and break the site out to desktop. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
