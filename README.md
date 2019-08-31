@@ -34,7 +34,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive web site sets media query break-points at certain hard-coded pixel widths to allow the elements on the web page to move around, and adapt, to different viewport sizes. The difference between that and a fully responsive is that a fully responsive site uses hard-coded pixel dimensions in the first parent, in addition to media qheries and percentages to achieve a layout that is consistent across most screen sizes.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first design is the ph
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
