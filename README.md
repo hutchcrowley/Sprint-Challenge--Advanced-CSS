@@ -38,13 +38,19 @@ An adaptive web site sets media query break-points at certain hard-coded pixel w
 
 2. Describe what it means to be mobile first vs desktop first.
 
-Mobile first design is the workflow of using min-width media queries to add break-points to a website in order for the layout to change based on the size of the screen that is viewing it. In the case of mobile-first, the developers start from mobile dimensions, which are around 500 x 800, and break the site out to desktop. 
+Mobile first design is the workflow of using min-width media queries to add break-points to a website in order for the layout to change based on the size of the screen that is viewing it. In the case of mobile-first, the developers start from mobile dimensions, which are around 500 x 800, and break the site out to desktop. Desktop first design, on the other hand, takes the opposite tack of using max-with media queries to break the site out from desktop down to mobile dimensions.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Because rem units are calculated based on the font size of the root element, making the font-size in the html element, which represents the root element of a page, in this case , would make any elements sized using the rem unit scale down to 62.5% of their default size.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Essentially, a preprocessor is a program that takes one type of data and turns it into another type of data. In the case of less, it is a javascript- based language that compiles into css. It adds functionality to the default css by adding in useful features such as nesting, variables, functions, and escapting to the default css.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+The concept I like most about preprocessing is the ability to make the style sheet nest and be similar in structure to the html. One thing that I have been having trouble with, however is how different it is from writing regular css. Once i get the hang of it, though, I think I will like it better. One other minor thing I have with it is the lag that it puts on live server responding to my updates in code. It isn't much, but it is noticeably slower than with regular css. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
