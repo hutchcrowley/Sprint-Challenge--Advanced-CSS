@@ -1,16 +1,21 @@
 // Navigation code here
 
 nav {
-  position:fixed;
+
+  position: fixed;
+  align-self: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   background-color: @nav-bg;
-  margin-left: -12%;
-  margin-right: -12%;
   border: 2px solid @sea-shell;
+  font-family: @river-bend;
+  padding-left: 15%;
+  padding-right: 15%;
+
 
   h1 {
+
     font-size: 28pt;
     width: 100%;
     text-align: center;
@@ -20,11 +25,19 @@ nav {
   }
 
     a {
-      width: 9%;
+
+      width: 20%;
       font-size: 150%;
       font-weight: bold;
       text-decoration: none;
       margin-bottom: 1%;
+
+&:hover {
+background-color: black;
+color: white;
+
+} 
+
     }
   
 }
