@@ -2,23 +2,20 @@
 
 .container-home {
 
-  .intro {
 
+
+  .intro {
     h2 {
       padding: 15px;
     }
 
     p {
-      padding:0 15px;
+      padding: 0 15px;
     }
-  
+
     img {
-      margin-bottom: 1%;
-
-
+      margin-bottom: 3%;
     }
-
-
   }
 
   .space-images {
@@ -26,12 +23,18 @@
     flex-wrap: wrap;
     width: 100%;
 
+    @media @phone {
+      display: flex;
+      flex-flow: column nowrap;
+      background-color: red;
+      
+      }
+      
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
-
     }
   }
 
@@ -64,15 +67,19 @@
       p {
         margin-bottom: 26px;
       }
-
-      .btn {
-      }
     }
+
+     button {
+        .sign-up-btn(black;8px;10px;45px);
+
+
+      }
+
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
-      
+
       img {
         width: 100%;
         height: auto;
@@ -80,4 +87,4 @@
       }
     }
   }
-}// home
+} // home
