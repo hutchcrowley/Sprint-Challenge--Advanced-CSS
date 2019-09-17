@@ -1,1 +1,47 @@
 // Navigation code here
+
+nav {
+
+  position: fixed;
+  align-self: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: @nav-bg;
+  border: 2px solid @sea-shell;
+  font-family: @river-bend;
+  padding-left: 15%;
+  padding-right: 15%;
+padding-bottom: 10px;
+
+  h1 {
+
+    font-size: 29pt;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+
+  }
+
+    a {
+    
+      width: 20%;
+      font-size: 150%;
+      font-weight: bold;
+      text-decoration: none;
+      margin-bottom: 1%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      text-align: center;
+
+&:hover {
+background-color: black;
+color: white;
+
+} 
+
+    }
+  
+}
