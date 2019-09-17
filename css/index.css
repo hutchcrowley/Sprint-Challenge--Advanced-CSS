@@ -149,7 +149,7 @@ html {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: #5E6164;
+  color: #5e6164;
 }
 h1,
 h2,
@@ -157,7 +157,7 @@ h3,
 h4,
 h5 {
   font-family: 'Russo One', sans-serif;
-  color: #23293B;
+  color: #23293b;
 }
 h2 {
   font-size: 3.2rem;
@@ -181,11 +181,12 @@ nav {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  background-color: #F6F6F6;
-  border: 2px solid #F1F1F1;
-  font-family: #454A59;
+  background-color: #f6f6f6;
+  border: 2px solid #f1f1f1;
+  font-family: #454a59;
   padding-left: 15%;
   padding-right: 15%;
+  padding-bottom: 10px;
 }
 nav h1 {
   font-size: 29pt;
@@ -202,6 +203,7 @@ nav a {
   text-decoration: none;
   margin-bottom: 1%;
   padding-top: 3%;
+  padding-bottom: 3%;
   text-align: center;
 }
 nav a:hover {
@@ -209,8 +211,8 @@ nav a:hover {
   color: white;
 }
 footer {
-  color: #81848E;
-  background: #F6F6F6;
+  color: #81848e;
+  background: #f6f6f6;
   padding: 20px 0;
   border: 1px double #e0e0e0;
   border-radius: 10px;
@@ -219,7 +221,7 @@ footer {
   align-items: center;
   margin-top: 1%;
 }
-@media (max-width: 500px) {
+@media @media max-width: 500px {
   .container-home {
     width: 500px;
   }
@@ -233,7 +235,7 @@ footer {
 .container-home .intro img {
   margin-bottom: 3%;
 }
-@media (max-width: 500px) {
+@media @media max-width: 500px {
   .container-home .intro img {
     height: 100px;
     width: 500px;
@@ -244,7 +246,7 @@ footer {
   flex-wrap: wrap;
   width: 100%;
 }
-@media (max-width: 500px) {
+@media @media max-width: 500px {
   .container-home .space-images {
     display: flex;
     flex-flow: column nowrap;
@@ -256,12 +258,12 @@ footer {
   border-radius: 20px;
   height: 80%;
 }
-@media (max-width: 500px) {
+@media @media max-width: 500px {
   .container-home .space-images img {
     width: 90%;
   }
 }
-@media (max-width: 500px) {
+@media @media max-width: 500px {
   .container-home .space-images .launch,
   .container-home .space-images .sky {
     display: none;
@@ -283,7 +285,7 @@ footer {
   display: flex;
   justify-content: center;
 }
-@media (max-width: 500px) {
+@media @media max-width: 500px {
   .container-home .walk {
     flex-flow: column nowrap;
   }
@@ -292,7 +294,7 @@ footer {
   width: 50%;
   order: 3;
 }
-@media (max-width: 500px) {
+@media @media max-width: 500px {
   .container-home .walk .walk-text {
     width: 100%;
   }
@@ -316,7 +318,7 @@ footer {
   background-color: red;
   color: black;
 }
-@media (max-width: 500px) {
+@media @media max-width: 500px {
   .container-home .walk button {
     width: 100%;
     height: 88px;
@@ -325,9 +327,10 @@ footer {
 .container-home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+  margin-right: 4%;
   order: 1;
 }
-@media (max-width: 500px) {
+@media @media max-width: 500px {
   .container-home .walk .walk-img {
     width: 100%;
     margin: 0 auto;

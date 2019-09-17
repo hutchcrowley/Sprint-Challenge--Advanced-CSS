@@ -142,4 +142,6 @@ After finishing your required elements, you can push your work further. These go
 
 * [+] Create a fixed navigation and add some opacity to the background
 
-* [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+* [] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/307c0d44-8662-4f1d-8f95-cca2bc51d0f2/deploy-status)](https://app.netlify.com/sites/spacewalkers-official/deploys)
